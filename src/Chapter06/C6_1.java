@@ -1,14 +1,15 @@
 package Chapter06;
 
-
 import java.util.Scanner;
+
 /**
- * program to enter a password that has limited attributes 
- * 
+ * program to enter a password that has limited attributes
+ *
  * @author Shahim Panjwani
  */
 public class C6_1 {
-  /**
+
+    /**
      * Main Method
      *
      * @param args from command line prompt
@@ -21,6 +22,11 @@ public class C6_1 {
         System.out.println(isValid(password) ? "Valid Password" : "Invalid Password");
     }
 
+    /**
+     *
+     * @param password
+     * @return
+     */
     public static boolean isValid(String password) {
         // Atleast 8 characters
         if (password.length() < 8) {

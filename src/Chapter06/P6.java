@@ -1,14 +1,16 @@
 package Chapter06;
 
-
 import java.util.Scanner;
+
 /**
- * program to enter what type of currency you want to buy and convert from that currency to American dollars
- * 
+ * program to enter what type of currency you want to buy and convert from that
+ * currency to American dollars
+ *
  * @author Shahim Panjwani
  */
 public class P6 {
-  /**
+
+    /**
      * Main Method
      *
      * @param args from command line prompt
@@ -50,6 +52,13 @@ public class P6 {
 
     }
 
+    /**
+     * This method will be the exchange rate
+     *
+     * @param dollars the amount of dollars that is being converted
+     * @param exchangeRate the currency that is being converted
+     * @return the amount of dollars in the conversion
+     */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
             return 0.95 * dollars * exchangeRate;

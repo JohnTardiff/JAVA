@@ -1,14 +1,15 @@
 package Chapter05;
 
-
 import java.util.Scanner;
+
 /**
- * project to count votes 
- * 
+ * project to count votes
+ *
  * @author Shahim Panjwani
  */
 public class P5 {
-  /**
+
+    /**
      * Main Method
      *
      * @param args from command line prompt

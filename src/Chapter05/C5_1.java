@@ -1,14 +1,16 @@
 package Chapter05;
 
-
 import java.util.Scanner;
+
 /**
- * Program to determine how many positives and negatives and the total of a certain number is
- * 
+ * Program to determine how many positives and negatives and the total of a
+ * certain number is
+ *
  * @author Shahim Panjwani
  */
 public class C5_1 {
-  /**
+
+    /**
      * Main Method
      *
      * @param args from command line prompt
