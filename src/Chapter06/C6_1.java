@@ -22,7 +22,14 @@ public class C6_1 {
         System.out.println(isValid(password) ? "Valid Password" : "Invalid Password");
     }
 
+    /**
+     * Method to test passwords
+     *
+     * @param password that is being tested
+     * @return password is valid
+     */
     public static boolean isValid(String password) {
+
         // Atleast 8 characters
         if (password.length() < 8) {
             System.out.println("A password must have at least eight characters");
